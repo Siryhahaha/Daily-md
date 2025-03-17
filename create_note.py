@@ -35,7 +35,6 @@ def create_new_lnk(target, name):
 
 if __name__ == "__main__":
     # 目标文件夹设为绝对路径
-    # target_folder = "/home/your_username/daily_notes"  # Linux/Mac
-    target_folder = r"D:\MY OWM FILES\CULUCULU"                 # Windows
+    target_folder = r"D:\MY OWM FILES\CULUCULU"                 # your folder
     path = create_daily_file(target_folder)
     create_new_lnk(path,"今日日志")
